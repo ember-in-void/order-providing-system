@@ -1,0 +1,12 @@
+INFO: 2025/02/03 15:41:38 customLogger.go:57: Logger initialized successfully
+INFO: 2025/02/03 15:41:38 customLogger.go:57: Successfully connected to database
+INFO: 2025/02/03 15:41:38 customLogger.go:57: Starting server on port 8080
+INFO: 2025/02/03 10:42:11 customLogger.go:57: Logger initialized successfully
+INFO: 2025/02/03 10:42:11 customLogger.go:57: Successfully connected to database
+INFO: 2025/02/03 10:42:11 customLogger.go:57: Starting server on port 8080
+INFO: 2025/02/03 11:07:07 customLogger.go:57: Logger initialized successfully
+INFO: 2025/02/03 11:07:07 customLogger.go:57: Successfully connected to database
+INFO: 2025/02/03 11:07:07 customLogger.go:57: Starting server on port 8080
+INFO: 2025/02/03 12:52:21 customLogger.go:56: Logger initialized successfully
+INFO: 2025/02/03 12:52:21 customLogger.go:56: Successfully connected to database
+INFO: 2025/02/03 12:52:21 customLogger.go:56: Starting server on port 8080
