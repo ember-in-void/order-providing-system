@@ -1,6 +1,6 @@
 package service
 
-import "frappuccino/internal/model"
+import "order-providing-system/internal/model"
 
 type ServiceModule interface {
 	OrderService

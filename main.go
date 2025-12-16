@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"frappuccino/internal/service/usecase"
-	pkgDB "frappuccino/internal/storage"
-	"frappuccino/internal/storage/repo"
-	"frappuccino/internal/transport"
-	"frappuccino/internal/transport/handler"
-	"frappuccino/pkg/logger"
+	"order-providing-system/internal/service/usecase"
+	pkgDB "order-providing-system/internal/storage"
+	"order-providing-system/internal/storage/repo"
+	"order-providing-system/internal/transport"
+	"order-providing-system/internal/transport/handler"
+	"order-providing-system/pkg/logger"
 )
 
 func main() {

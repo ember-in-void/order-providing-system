@@ -45,7 +45,7 @@ func (h *HttpCustomHandler) PopularItemsHandler(w http.ResponseWriter, r *http.R
 // Обработка нулевого запроса
 func (h *HttpCustomHandler) HomeHandler(w http.ResponseWriter, r *http.Request) {
 	h.Logger.Info("Home Method handler")
-	SendJSONResponse(w, http.StatusOK, "Welcome to the Frappuccino API")
+	SendJSONResponse(w, http.StatusOK, "Welcome to the Order-Providing-System API")
 }
 
 // Отправка JSON-ответа

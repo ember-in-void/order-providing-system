@@ -1,4 +1,4 @@
-module frappuccino
+module order-providing-system
 
 go 1.23
 

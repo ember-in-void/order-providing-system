@@ -7,7 +7,7 @@ services:
       - DB_HOST=db
       - DB_USER=latte
       - DB_PASSWORD=latte
-      - DB_NAME=frappuccino
+      - DB_NAME=order-providing-system
       - DB_PORT=5432
     depends_on:
       - db
@@ -19,7 +19,7 @@ services:
     environment:
       - POSTGRES_USER=latte
       - POSTGRES_PASSWORD=latte
-      - POSTGRES_DB=frappuccino
+      - POSTGRES_DB=order-providing-system
     volumes:
       - ./migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./migrations/insert.sql:/docker-entrypoint-initdb.d/insert.sql

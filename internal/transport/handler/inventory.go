@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"frappuccino/internal/model"
+	"order-providing-system/internal/model"
 )
 
 func (h *HttpCustomHandler) InventoryHandler(w http.ResponseWriter, r *http.Request) {

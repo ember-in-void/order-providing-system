@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"frappuccino/internal/model"
+	"order-providing-system/internal/model"
 )
 
 func (r *Repo) GetMenuItems() ([]model.MenuItem, error) {
