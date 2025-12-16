@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"frappuccino/internal/model"
+	"order-providing-system/internal/model"
 )
 
 // Получение всех элементов инвентаря

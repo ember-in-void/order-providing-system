@@ -1,6 +1,6 @@
 package storage
 
-import "frappuccino/internal/model"
+import "order-providing-system/internal/model"
 
 type RepoModule interface {
 	OrderRepo

@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"frappuccino/internal/service"
-	"frappuccino/internal/service/usecase"
-	"frappuccino/pkg/logger"
+	"order-providing-system/internal/service"
+	"order-providing-system/internal/service/usecase"
+	"order-providing-system/pkg/logger"
 )
 
 type HttpCustomHandler struct {

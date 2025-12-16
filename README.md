@@ -21,7 +21,7 @@ A modern coffee shop management system built with Go and PostgreSQL. This applic
 ## Project Structure
 
 ```
-frappuccino/
+order-providing-system/
 ├── internal/
 │   ├── model/           # Data models and entities
 │   ├── service/         # Business logic layer (usecases)
@@ -45,8 +45,8 @@ frappuccino/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ember-in-void/frappuccino.git
-cd frappuccino
+git clone https://github.com/ember-in-void/order-providing-system.git
+cd order-providing-system
 ```
 
 ### 2. Launch the Application
@@ -99,15 +99,15 @@ If you prefer to run the application locally without Docker:
 
 1. **Start PostgreSQL** and create a database:
 ```sql
-CREATE DATABASE frappuccino;
+CREATE DATABASE order-providing-system;
 CREATE USER latte WITH PASSWORD 'latte';
-GRANT ALL PRIVILEGES ON DATABASE frappuccino TO latte;
+GRANT ALL PRIVILEGES ON DATABASE order-providing-system TO latte;
 ```
 
 2. **Run migrations**:
 ```bash
-psql -U latte -d frappuccino -f migrations/init.sql
-psql -U latte -d frappuccino -f migrations/insert.sql
+psql -U latte -d order-providing-system -f migrations/init.sql
+psql -U latte -d order-providing-system -f migrations/insert.sql
 ```
 
 3. **Set environment variables**:
@@ -115,7 +115,7 @@ psql -U latte -d frappuccino -f migrations/insert.sql
 export DB_HOST=localhost
 export DB_USER=latte
 export DB_PASSWORD=latte
-export DB_NAME=frappuccino
+export DB_NAME=order-providing-system
 export DB_PORT=5432
 ```
 
@@ -140,7 +140,7 @@ The application uses environment variables for configuration:
 | DB_HOST | PostgreSQL host | db |
 | DB_USER | Database user | latte |
 | DB_PASSWORD | Database password | latte |
-| DB_NAME | Database name | frappuccino |
+| DB_NAME | Database name | order-providing-system |
 | DB_PORT | Database port | 5432 |
 
 ## Development

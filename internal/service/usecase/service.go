@@ -1,6 +1,6 @@
 package usecase
 
-import "frappuccino/internal/storage"
+import "order-providing-system/internal/storage"
 
 type CustomService struct {
 	NewRepo storage.RepoModule

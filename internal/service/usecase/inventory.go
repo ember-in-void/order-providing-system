@@ -3,7 +3,7 @@ package usecase
 import (
 	"errors"
 
-	"frappuccino/internal/model"
+	"order-providing-system/internal/model"
 )
 
 // Получение всех элементов инвентаря

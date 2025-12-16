@@ -3,7 +3,7 @@ package repo
 import (
 	"database/sql"
 
-	"frappuccino/internal/storage"
+	"order-providing-system/internal/storage"
 )
 
 type Repo struct {

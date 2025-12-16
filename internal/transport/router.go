@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"frappuccino/internal/transport/handler"
+	"order-providing-system/internal/transport/handler"
 )
 
 func SetupRouter(h *handler.HttpCustomHandler) *http.ServeMux {
