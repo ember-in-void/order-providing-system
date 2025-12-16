@@ -1,4 +1,4 @@
-# Frappuccino
+# order-providing-system
 
 A modern coffee shop management system built with Go and PostgreSQL. This application provides a RESTful API for managing menu items, inventory, orders, and sales aggregations.
 
